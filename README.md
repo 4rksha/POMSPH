@@ -1,9 +1,12 @@
 # POMSPH
 Smoothed Particle Hydrodynamics
 
+Dépendances à installer 
+```
+apt-get install libsdl2-dev libsdl2-image-dev libglew-dev premake4
+```
 Pour compiler le code sous Linux - makefile
 ```
-cd gkit2light
 premake/premake4.linux --file=master_MecaSim.lua gmake
 make -f master_MecaSim_etudiant.make
 ./bin/master_MecaSim_etudian
